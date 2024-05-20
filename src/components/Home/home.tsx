@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./home.scss";
 import { useEffect, useState } from "react";
 import AnimatedLetters from "../AnimatedLetters/animated";
+import Loader from "react-loaders";
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -35,49 +36,52 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="container home-page">
-      <div className="home-text">
-        <h1>
-          <AnimatedLetters
-            letterClass={letterClass}
-            strArray={greeting}
-            idx={15}
-          />
-          ! <br /> <span className={`${letterClass} _13`}>I</span>'
-          <span className={`${letterClass} _14`}>m</span>{" "}
-          <AnimatedLetters
-            letterClass={letterClass}
-            strArray={firstNameArray}
-            idx={15}
-          />{" "}
-          <AnimatedLetters
-            letterClass={letterClass}
-            strArray={secondNameArray}
-            idx={15}
-          />{" "}
-          <AnimatedLetters
-            letterClass={letterClass}
-            strArray={lastNameArray}
-            idx={15}
-          />
-          , <br />
-          <AnimatedLetters
-            letterClass={letterClass}
-            strArray={jobString}
-            idx={22}
-          />
-          .
-          <br />
-        </h1>
-        <h2>
-          Experienced Junior Fullstack Developer / Tech Enthusiast / Web3
-          Enthusiast
-        </h2>
-        <Link to="/contact" className="flat-button">
-          Contact me
-        </Link>
+    <>
+      <div className="container home-page">
+        <div className="home-text">
+          <h1>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={greeting}
+              idx={15}
+            />
+            ! <br /> <span className={`${letterClass} _13`}>I</span>'
+            <span className={`${letterClass} _14`}>m</span>{" "}
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={firstNameArray}
+              idx={15}
+            />{" "}
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={secondNameArray}
+              idx={15}
+            />{" "}
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={lastNameArray}
+              idx={15}
+            />
+            , <br />
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={jobString}
+              idx={22}
+            />
+            .
+            <br />
+          </h1>
+          <h2>
+            Experienced Junior Fullstack Developer / Tech Enthusiast / Web3
+            Enthusiast
+          </h2>
+          <Link to="/contact" className="flat-button">
+            Contact me
+          </Link>
+        </div>
       </div>
-    </div>
+      <Loader type="pacman" />
+    </>
   );
 };
 
