@@ -36,44 +36,27 @@ const About = () => {
             />
           </h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum
-            fusce ut placerat orci nulla pellentesque dignissim enim. Dui sapien
-            eget mi proin sed. Tempor nec feugiat nisl pretium fusce id velit ut
-            tortor. Eu consequat ac felis donec et. Malesuada fames ac turpis
-            egestas integer. Feugiat vivamus at augue eget. Libero id faucibus
-            nisl tincidunt. Nulla porttitor massa id neque aliquam vestibulum.
-            Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae.
+            As a full-stack software developer, I bring a unique blend of
+            creativity, problem-solving skills, and a passion for technology.
+            With less than a year of professional experience, I’ve already made
+            significant contributions to various projects. My journey began when
+            I decided to pivot from a different career path, embracing the
+            challenge of coding and development.
           </p>
           <p>
-            Sapien faucibus et molestie ac feugiat sed. Id semper risus in
-            hendrerit. Et pharetra pharetra massa massa ultricies. Libero
-            volutpat sed cras ornare. Diam in arcu cursus euismod quis viverra
-            nibh cras pulvinar. Scelerisque eleifend donec pretium vulputate
-            sapien nec sagittis. Aliquam etiam erat velit scelerisque. Suscipit
-            tellus mauris a diam maecenas sed. Pellentesque elit eget gravida
-            cum. Neque volutpat ac tincidunt vitae. Gravida quis blandit turpis
-            cursus in hac habitasse. Est lorem ipsum dolor sit amet consectetur
-            adipiscing. Faucibus a pellentesque sit amet porttitor eget. In est
-            ante in nibh mauris cursus mattis molestie a.
+            In my previous work, I leverage cutting-edge technologies to build
+            robust and user-friendly applications. On the frontend, I’m
+            proficient in React, crafting intuitive interfaces that captivate
+            users. Meanwhile, on the backend, I rely on Nest JS to create
+            scalable and efficient APIs. My commitment to continuous learning
+            drives me to stay up-to-date with industry trends, ensuring that I
+            deliver high-quality solutions.
           </p>
           <p>
-            Vitae auctor eu augue ut lectus. Enim praesent elementum facilisis
-            leo vel fringilla est. Sed nisi lacus sed viverra tellus. Eros donec
-            ac odio tempor orci dapibus. Molestie a iaculis at erat
-            pellentesque. Nisl pretium fusce id velit ut tortor pretium. Odio ut
-            enim blandit volutpat maecenas volutpat blandit aliquam etiam.
-            Sapien pellentesque habitant morbi tristique senectus et netus et.
-            Varius quam quisque id diam vel quam elementum pulvinar etiam. Velit
-            egestas dui id ornare arcu odio ut. Euismod in pellentesque massa
-            placerat. Enim ut tellus elementum sagittis vitae et leo. Vitae
-            ultricies leo integer malesuada nunc vel risus commodo viverra. Et
-            leo duis ut diam quam nulla porttitor. Ipsum nunc aliquet bibendum
-            enim. Molestie at elementum eu facilisis sed odio morbi quis
-            commodo. Urna neque viverra justo nec ultrices. Platea dictumst
-            vestibulum rhoncus est. Facilisi morbi tempus iaculis urna id
-            volutpat lacus laoreet non. Molestie nunc non blandit massa enim nec
-            dui nunc.
+            Whether it’s solving complex algorithms or collaborating with
+            cross-functional teams, I thrive on the excitement of building
+            something meaningful. Join me on this journey as we transform ideas
+            into reality, one line of code at a time.
           </p>
         </div>
         <div className="stage-cube-cont">
