@@ -39,9 +39,7 @@ const About = () => {
             As a full-stack software developer, I bring a unique blend of
             creativity, problem-solving skills, and a passion for technology.
             With less than a year of professional experience, I’ve already made
-            significant contributions to various projects. My journey began when
-            I decided to pivot from a different career path, embracing the
-            challenge of coding and development.
+            significant contributions to various projects.
           </p>
           <p>
             In my previous work, I leverage cutting-edge technologies to build
